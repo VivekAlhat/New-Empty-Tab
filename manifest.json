@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "New Empty Tab",
+  "description": "A simple extension that overrides default new tab with a blank page.",
+  "version": "1.0.0",
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
